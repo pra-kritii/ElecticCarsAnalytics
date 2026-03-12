@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>EV Dashboard</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+<div class="container px-5">
+
+<a class="navbar-brand" href="index.html">
+<span class="fw-bolder text-primary">EV Analysis</span>
+</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link active" href="dashboard.html">Dashboard</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="story.html">Story</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact</a>
+</li>
+
+</ul>
+
+</div>
+</div>
+</nav>
+
+<!-- Page Title -->
+<h2 style="text-align:center; margin-top:20px;">Electric Vehicle Dashboard</h2>
+
+<!-- Tableau Dashboard -->
+<div class='tableauPlaceholder' id='viz1773002761450' style='position: relative; width:100%'>
+
+<noscript>
+<a href='#'>
+<img alt='Electric cars analytics'
+src='https://public.tableau.com/static/images/EV/EVanalyticsDashboard/Electriccarsanalytics/1_rss.png'
+style='border:none' />
+</a>
+</noscript>
+
+<object class='tableauViz' style='display:none;'>
+
+<param name='host_url' value='https://public.tableau.com/' />
+<param name='embed_code_version' value='3' />
+<param name='site_root' value='' />
+<param name='name' value='EVanalyticsDashboard/Electriccarsanalytics' />
+<param name='tabs' value='no' />
+<param name='toolbar' value='yes' />
+
+</object>
+</div>
+
+<script type='text/javascript'>
+
+var divElement = document.getElementById('viz1773002761450');
+var vizElement = divElement.getElementsByTagName('object')[0];
+
+if (divElement.offsetWidth > 800) {
+    vizElement.style.width='100%';
+    vizElement.style.height='900px';
+} 
+else if (divElement.offsetWidth > 500) {
+    vizElement.style.width='100%';
+    vizElement.style.height='800px';
+} 
+else {
+    vizElement.style.width='100%';
+    vizElement.style.height='700px';
+}
+
+var scriptElement = document.createElement('script');
+scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+vizElement.parentNode.insertBefore(scriptElement, vizElement);
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
