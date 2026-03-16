@@ -1,14 +1,6 @@
 # 🚗 Electric Vehicle Analytics Using Tableau
 
-##  Introduction
-
-An Electric Vehicle (EV) is powered by an electric motor that draws electricity from a rechargeable battery and can be charged from an external power source. Unlike traditional vehicles that rely on internal combustion engines, EVs produce lower emissions and support sustainable transportation.
-
-Although electric vehicles have existed for many years, their adoption has increased significantly due to advancements in battery technology, environmental awareness, and government policies promoting clean energy transportation.
-
-Modern EVs combine electrical storage systems, sensors, electronic controls, software, and data analytics to create intelligent transportation solutions. Data analytics plays an important role in understanding EV performance, charging patterns, efficiency, and infrastructure planning.
-
-This project focuses on analyzing electric vehicle datasets and creating interactive visualizations using **Tableau** to understand EV performance, pricing, efficiency, and charging infrastructure.
+##  FInd the link below
 
 ---
 
