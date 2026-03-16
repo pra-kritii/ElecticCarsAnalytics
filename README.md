@@ -1,7 +1,10 @@
 # 🚗 Electric Vehicle Analytics Using Tableau
 
 ##  FInd the link below
-
+- Story Link
+https://public.tableau.com/app/profile/prakriti.kesharwani/viz/EVanalytics/StoryofelectriccarsinIndia
+- Dashboard Link
+https://public.tableau.com/app/profile/prakriti.kesharwani/viz/EVanalyticsDashboard/Electriccarsanalytics
 ---
 
 # Problem Statement
